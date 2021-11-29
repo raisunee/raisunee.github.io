@@ -1,0 +1,266 @@
+/* FONT SETUP */
+.pop-reg {
+    font-family: 'Poppins', sans-serif;
+}
+.pop-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+}
+
+.intro-lay > .intro-txt-lay > .intro-txt > .hdline-text {
+    padding:35% 15% 35% 15%;
+}
+
+.intro-lay > .intro-txt-lay > .intro-img {
+        background-color: #4ECCA3;
+        padding:23% 0% 23% 0%;
+    }
+
+
+/* /* ul.drop-pos {
+    margin-top: 10%; */
+
+.acad-txt {
+    padding:5% 0% 5% 0%;
+}
+
+.acad-prev {
+    padding:22% 0% 5% 0%;
+}
+
+.acad-1 {
+    background-color: #393E46;
+}
+
+.acad-2 {
+    background-color: #EEEEEE;
+}
+
+/* .projects {
+    background-color: #4ECCA3;
+    padding: 10% 0% 10% 0%;
+} */
+
+.projects > .row > .container > .col-md-12 > .prjct-txt {
+    padding:3% 0% 3% 0%;
+}
+
+.projects > .prjct-list {
+    background-color: #4ECCA3;
+    padding:2% 0% 0% 0%;
+}
+
+.projects > .prjct-list > .cat > .cat-a-text {
+    padding:0% 0% 3% 3%;
+}
+
+.projects > .prjct-list > .cat > .cat-a-list > .a-list > .a-list-lay {
+    background-color: #393E46;
+}
+
+.projects > .prjct-list > .cat > .cat-a-list > .a-list > .a-list-box {
+    background-color: #C4C4C4;
+}
+
+
+.projects > .prjct-list > .cat-b > .cat-b-text {
+    padding:0% 0% 3% 3%;
+}
+
+.projects > .prjct-list > .cat-b > .cat-b-list > .b-list > .b-list-lay {
+    background-color: #393E46;
+}
+
+.projects > .prjct-list > .cat-b > .cat-b-list > .b-list > .b-list-box {
+    background-color: #C4C4C4;
+}
+
+.list-txt {
+    padding: 6% 4% 4% 4%;
+}
+
+.list-box {
+    padding-top:50%;
+}
+
+/* .A-list {
+    padding: 2% 0% 2% 0%;
+} */
+
+@media (max-width: 360px) {
+
+    /* INTRODUCTION */
+    .intro-lay > .intro-txt-lay > .intro-txt > .hdline-text {
+        padding: 15% 15% 15% 15%;
+    }
+
+    .intro-lay > .intro-txt-lay > .intro-img {
+        background-color: #4ECCA3;
+        padding:41% 0% 41% 0%;
+    }
+
+
+    /* ACADEMY */
+    .acad-txt {
+        padding:8% 0% 8% 0%;
+    }
+
+    .acad-prev {
+        padding:7% 0% 3% 0%;
+    }
+
+
+    /* PROJECTS */
+    .projects > .row > .container > .col-md-12 > .prjct-txt {
+        padding:5% 0% 5% 0%;
+    }
+
+    .projects > .prjct-list > .cat > .cat-a-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .projects > .prjct-list > .cat-b > .cat-b-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .a-list {
+        border:5px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .b-list {
+        border:5px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .list-txt {
+        padding: 8% 4% 4% 35%;
+    }
+
+    .list-box {
+        padding-top:4%;
+        padding-bottom:2%;
+    }
+
+}
+
+@media (min-width:374px) and (max-width: 376px) {
+
+    /* INTRODUCTION */
+    .intro-lay > .intro-txt-lay > .intro-txt > .hdline-text {
+        padding: 15% 15% 15% 15%;
+    }
+
+    .intro-lay > .intro-txt-lay > .intro-img {
+        background-color: #4ECCA3;
+        padding:45% 0% 45% 0%;
+    }
+
+
+    /* ACADEMY */
+    .acad-txt {
+        padding:12% 0% 8% 0%;
+    }
+
+    .acad-prev {
+        padding:7% 0% 3% 0%;
+    }
+
+
+    /* PROJECTS */
+    .projects > .row > .container > .col-md-12 > .prjct-txt {
+        padding:5% 0% 5% 0%;
+    }
+
+    .projects > .prjct-list > .cat > .cat-a-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .projects > .prjct-list > .cat-b > .cat-b-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .a-list {
+        border:5px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .b-list {
+        border:5px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .list-txt {
+        padding: 8% 4% 4% 35%;
+    }
+
+    .list-box {
+        padding-top:4%;
+        padding-bottom:2%;
+    }
+
+}
+
+@media (min-width:767px) and (max-width:769px) {
+    
+    /* INTRODUCTION */
+    .intro-lay > .intro-txt-lay > .intro-txt > .hdline-text {
+        padding: 30% 15% 30% 15%;
+    }
+
+    .intro-lay > .intro-txt-lay > .intro-img {
+        background-color: #4ECCA3;
+        padding:30% 0% 30% 0%;
+    }
+
+
+    /* ACADEMY */
+    .acad-txt {
+        padding:8% 0% 5% 0%;
+    }
+
+    .acad-prev {
+        padding:22% 0% 3% 0%;
+    }
+    
+    .acad-prev > .acad-child-txt > h5 {
+        font-size: 18px;
+    }
+
+    .acad-prev > .acad-child-txt > p {
+        font-size: 14px;
+    }
+
+
+    /* PROJECTS */
+    .projects > .row > .container > .col-md-12 > .prjct-txt {
+        padding:8% 0% 5% 0%;
+    }
+
+    .projects > .prjct-list > .cat > .cat-a-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .projects > .prjct-list > .cat-b > .cat-b-text {
+        padding:5% 0% 5% 33%;
+    }
+
+    .a-list {
+        border:6px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .b-list {
+        border:6px solid #4ECCA3;
+        border-radius: 15px;
+    }
+
+    .list-txt {
+        padding: 8% 4% 4% 35%;
+    }
+
+    .list-box {
+        padding-top:105%;
+    }
+
+}

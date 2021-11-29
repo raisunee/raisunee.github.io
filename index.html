@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="/ven/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/ven/bootstrap/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <title>My Portofolio</title>
 </head>
-<body>
+<body class="pop-reg">
     
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">RaysPort</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#">Introduction</a>
               </li>
@@ -35,19 +41,232 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Contact
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Email</a></li>
-                  <li><a class="dropdown-item" href="#">Twitter</a></li>
-                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
-                </ul>
+                <div class="dropdown-menu drop-pos" style="margin-top: 10%;margin-right: 10%;">
+                    <ul aria-labelledby="navbarDropdownMenuLink" style="list-style-type: none;padding:0% 2% 0% 0%;">
+                        <li><a class="dropdown-item" href="#">Email</a></li>
+                        <li><a class="dropdown-item" href="#">Twitter</a></li>
+                        <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">None</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
+    <!-- INTRODUCTION -->
+    <div class="container-fluid intro-lay" style="background-color:#EEEEEE;">
+        <div class="row intro-txt-lay">
+            <div class="col-md-6 intro-txt">
+                <div class="hdline-text">
+                    <h2 class="pop-bold">Hello There!</h2>
+                    <p>My name is "Muhammad Raihan Pratama", you can call me Raihan/Rai/Han. I'm from Indonesia and my age is 19 y.o. I'm interested in Tech like Web Development and AI, also interested in Graphic Design. Welcome to My Portofolio Site!</p>
+                    <p class="text-center"><i class="fas fa-angle-double-down fa-fade"></i></p>
+                </div>
+            </div>
+
+            <div class="col-md-6 intro-img">
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid acad-lay">
+        <div class="row acad-intro-lay">
+            <div class="container acad-intro">
+                <div class="col-md-12 acad-txt-lay">
+                    <div class="text-center acad-txt">
+                        <h3>Academy</h3>
+                        <p>This is my academy timeline</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3 acad-prev acad-1">
+                <div class="text-white acad-child-txt">
+                    <h5>Elementary School</h5>
+                    <p>SDN 1 Batujajar</p>
+                    <p><small>2010 - 2016</small></p>
+                </div>
+            </div>
+            <div class="col-md-3 acad-prev acad-2">
+                <div class="acad-child-txt">
+                    <h5>Junior High School</h5>
+                    <p>SMPN 1 Batujajar</p>
+                    <p><small>2016 - 2018</small></p>
+                </div>
+            </div>
+            <div class="col-md-3 acad-prev acad-1">
+                <div class="text-white acad-child-txt">
+                    <h5>Senior High School</h5>
+                    <p>SMKN 1 Cimahi</p>
+                    <p><small>2018 - 2022</small></p>
+                </div>
+            </div>
+            <div class="col-md-3 acad-prev acad-2">
+                <div class="acad-child-txt">
+                    <h5>Soon</h5>
+                    <p>X Uni</p>
+                    <p><small>2022 - ?</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="text-center" style="padding:3% 0% 3% 0%;">
+                        <h3>Experience</h3>
+                        <p>This is my academy timeline</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="container-fluid projects" style="background-color: #EEEEEE;">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="text-center prjct-txt">
+                        <h3>Projects</h3>
+                        <p>This is my finished and under development projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row prjct-list">
+            <!-- CATEGORY A -->
+            <div class="col-md-6 cat">
+                <div class="cat-a-text">
+                    <h5>Category A</h5>
+                </div>
+                <div class="cat-a-list">
+                    <div class="row a-list">
+                        <div class="col-md-10 a-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project A</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 a-list-box">
+                            <div class="text-center list-box-lay">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-check"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row a-list">
+                        <div class="col-md-10 a-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project B</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 a-list-box">
+                            <div class="text-center">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-spinner fa-spin"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row a-list">
+                        <div class="col-md-10 a-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project C</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 a-list-box">
+                            <div class="text-center">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-times"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-foot-txt" style="padding:2% 0% 0% 3%;">
+                                <p><small><i class="fas fa-circle"></i>  | check my github for more projects</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY B -->
+            <div class="col-md-6 cat-b">
+                <div class="cat-b-text">
+                    <h5>Category B</h5>
+                </div>
+                <div class="cat-b-list">
+                    <div class="row b-list">
+                        <div class="col-md-10 b-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project A</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 b-list-box">
+                            <div class="text-center">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-check"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row b-list">
+                        <div class="col-md-10 b-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project B</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 b-list-box">
+                            <div class="text-center">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-spinner fa-spin"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row b-list">
+                        <div class="col-md-10 b-list-lay">
+                            <div class="text-white list-txt">
+                                <h5>Project C</h5>
+                                <p>description...</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 b-list-box">
+                            <div class="text-center">
+                                <div class="list-box">
+                                    <h5><i class="fas fa-times"></i></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-foot-txt" style="padding:2% 0% 0% 3%;">
+                                <p><small><i class="fas fa-circle"></i>  | check my twitter for more projects</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 <!-- BOOTSTRAP JS -->
-<script src="/ven/bootstrap/js/bootstrap.min.js"></script>
+<!-- <script src="/ven/bootstrap/js/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </html>
